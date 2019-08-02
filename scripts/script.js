@@ -1,10 +1,14 @@
 var one = 1984;
-alert(one);
-var two = "TWO, two, TwO, tWo";
+var two = "Second var";
 var three = true;
 var four = null;
 var five = undefined;
-console.log(one, two, three, four, five)
-console.log(typeof one, two, three, four, five)
-var pro = prompt("Число");
-console.log("Квадрат = " + pro*pro);
+
+console.log("one =" + " " + one + " " +"type" + " " + typeof one);
+console.log("two =" + " " + two + " " +"type" + " " + typeof two);
+console.log("three =" + " " + three + " " +"type" + " " + typeof three);
+console.log("four =" + " " + four + " " +"type" + " " + typeof four);
+console.log("five =" + " " + five + " " +"type" + " " + typeof five);
+
+var pro = prompt("Квадрат числа", "Введите число");
+alert("Квадрат = " + pro*pro);
