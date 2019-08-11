@@ -1,7 +1,7 @@
 // 1.1 по выводу содержимого каждой переменной и типа каждой переменной
 
 var one = 1984;
-var two = "Second var";
+var two = "Second";
 var three = true;
 var four = null;
 var five = undefined;
